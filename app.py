@@ -12,7 +12,7 @@ st.write("""
          """
          )
 
-file=st.file_uploader("Please upload an flower image:", type=["jpg","png","jpeg"])
+file=st.file_uploader("Please upload an flower image('daisy','dandelion','roses','sunflowers','tulips'):", type=["jpg","png","jpeg"])
 import cv2
 from PIL import Image, ImageOps
 import numpy as np
