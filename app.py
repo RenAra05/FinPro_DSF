@@ -4,7 +4,7 @@ import tensorflow as tf
 st.set_option('deprecation.showfileUploaderEncoding',False)
 @st.cache(allow_output_mutation=True)
 def load_model():
-  model=tf.keras.models.load_model('/content/flower_identification.hdf5')
+  model=tf.keras.models.load_model('flower_identification.hdf5')
   return model
 model=load_model()
 st.write("""
